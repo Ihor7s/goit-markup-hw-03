@@ -30,6 +30,7 @@ ul {
     list-style: none;
     text-decoration: none;
     margin: 0;
+    padding: 0;
 
 }
 img {
@@ -74,7 +75,7 @@ h2, h3, p {
     color: var(--color-text-logo2);
 }
 /*хедер навігація*/
-.site-nav {
+.site-nav  {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -85,12 +86,12 @@ h2, h3, p {
     display: flex;
     margin: 0px 0px 0px 93px; 
 }
-.link {
+
+.link  {
     text-decoration: none;
     color: var(--color-text);
     padding: 32px 0px;
     margin-left: 50px;
-    
 }
 .link:hover {
     color: var(--color-text-logo);
@@ -224,7 +225,9 @@ h2, h3, p {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .title-work {
     font-weight: 700;
@@ -235,11 +238,29 @@ h2, h3, p {
     color: var(--color-text);
     margin-bottom: 50px;
 }
-.work-img {
+.list-work-img  {
     
+}
+.work-img {
+    display: inline-block;
+    margin-left: 26px;
+    padding-bottom: 94px;
+}
+.work-img:first-child {
+    margin-left: 0;
 }
 
 /*наша команда*/
+.container-team{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team {
+    padding-bottom: 94px;
+}
 .team-section {
     background-color: var(--filter-color);
 }
@@ -259,7 +280,18 @@ h2, h3, p {
 } 
 .list-team {
     background-color: var(--primery-background);
+    display: inline-block;
+    margin-left: 26px;
+    text-align: center;
+    
 }
+.list-team:first-child {
+    margin-left: 0;
+
+}
+.foto-team {
+}
+
 .title-team {
     font-weight: 700;
     font-size: 36px;
@@ -267,6 +299,15 @@ h2, h3, p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text);
+    margin-bottom: 50px;
+}
+
+.team-name {
+    margin-top: 30px;
+}
+.position {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 /*футер*/
 .footer {
