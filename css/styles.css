@@ -379,9 +379,7 @@ flex-wrap: wrap;
 /*портфоліо*/
 /*кнопки*/
 
-.header-line {
-    border-bottom: 1px solid #ECECEC;
-}
+.header-line {}
 
 .container-portfolio {
     width: 1200px;
