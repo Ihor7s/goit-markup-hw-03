@@ -171,7 +171,12 @@ align-items: center;
     color: var(--color-text);
 }
 
-/*наші переваги, секція 2*/
+/*наші переваги наші особливості, секція 2*/
+
+.section-features {
+    padding-top: 94px;
+    padding-bottom: 94px;  
+}
 
 .visually-hidden {
     position: absolute;
@@ -188,8 +193,6 @@ align-items: center;
 .section-hidden {
     display: flex;
     padding: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .container-list:not(:first-child) {
     margin-left: 30px;
@@ -337,19 +340,14 @@ align-items: center;
 }
 
 .adres-list {
-    flex-direction: column;
-    display: inline-flex;
-    
 }
 
 .adres-list-ithem {
-display: inline-flex;
-min-width: 231px;
 flex-wrap: wrap;
 margin-bottom: 9px;
-
-
-
+}
+.adres-list-ithem:last-child {
+    margin-bottom: 0;
 }
 
 .adres-maps {
@@ -365,7 +363,7 @@ margin-bottom: 9px;
 /*кнопки*/
 
 .header-line {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 
