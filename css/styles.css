@@ -157,6 +157,7 @@ align-items: center;
     letter-spacing: 0.06em;
     color: var(--primery-background);
     border-radius: 4px;
+    border: none;
     padding: 10px 32px;
     display: block;
     min-width: 216px;
@@ -383,6 +384,7 @@ margin-bottom: 9px;
     font-family: roboto;
     background: var(--filter-color);
     border-radius: 4px;
+    border: none;
     cursor: pointer;
     justify-content: center;
     
